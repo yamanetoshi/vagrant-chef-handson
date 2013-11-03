@@ -95,21 +95,16 @@ sahara について
 sahara というプラグインは仮想リソースの状態を保存しておき、その時点までロールバックする、という事ができます。使用方法を以下に列挙しておきます。
 
 - sahara をインストール
-
-    $ vagrant gem install sahara
+`$ vagrant gem install sahara`
 
 - sandbox モードを有効にする
-
-    $ vagrant sandbox on
+`$ vagrant sandbox on`
 
 - ロールバックする
-
-    $ vagrant sandbox rollback
+`$ vagrant sandbox rollback`
 
 - 仮想リソースの状態変更を確定させる
-
-    $ vagrant sandbox commit
+`$ vagrant sandbox commit`
 
 - sandbox モードのを解除
-
-    $ vagrant sandbox off
+`$ vagrant sandbox off`
